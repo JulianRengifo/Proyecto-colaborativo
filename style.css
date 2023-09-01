@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+}
+
+.navbar li {
+    transition: background-color 0.3s;
+}
+
+.navbar li:hover {
+    background-color: #555; /* Cambia el color al pasar el mouse */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    
+}
+
+.navbar i{
+    margin-right: 18px;
+    font-size: 14px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+    line-height: 35px;
+}
+
+.item {
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.submenu-content {
+    padding: 8px 0px;
+    list-style-type: none;
+    line-height: 10px;
+    background-color: #080808;
+    width: 100%;
+}
+
+.submenu-content li {
+    padding: 8px 0px;
+}
+
+.subitem{
+    padding: 0px 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.item.button {
+    font-size: 18px;
+    padding: 9px 15px;
+    list-style: none;
+}
+
+.submenu-trigger {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    color: #fff;
+    font-size: 18px;
+}
+
+.submenu-trigger a{
+    padding: 10px 20px;
+}
+
+i {
+    margin-left: 10px; /* Espacio entre el icono y el texto */
+}
+
+
+.button.secondary {
+    /* divider between buttons and menu links */
+    border-bottom: 1px #444 solid;
+    list-style: none;
+
+}
+
+.usuario {
+    margin-top: 80%; /* Mover el enlace "View Profile" hacia abajo */
+}
+
